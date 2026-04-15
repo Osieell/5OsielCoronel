@@ -1,0 +1,51 @@
+/* INICIAR ESTILOS */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Encabezado*/
+header {
+    background-color: #329ee6;
+    color: white;
+    text-align: center;
+    padding: px;
+}
+
+/*Menu de navegacion */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover { /* al los elementos li y colocamos el mause sobre el link */
+  background-color: #dd2078;
+  border-radius: 5px;
+    }
+
+    /* Contenido principal */
+    main{
+        padding: 20px;
+    }
+
+    /* Pie de pagina */
+    footer {
+        background-color: #4dd87c;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+    }
